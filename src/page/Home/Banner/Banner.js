@@ -16,48 +16,44 @@ const Banner = () => {
         <div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide>
-                    <div className='z-1' >
+                    <div className='z-1 ' >
                         <div className='relative'>
                             <div>
                                 {/* overlay */}
-                                <div className='absolute  w-full h-full bg-black/50 round-xl text-white  ' data-aos="fade-right"
-                                    data-aos-offset="300"
-                                    data-aos-easing="ease-in-sine" >
-                                    <div className='absolute top-[35%] lg:left-[20%] md:left-[20%] left-[10%] mr-[30px]' data-aos="fade-right">
+                                <div className='absolute  w-full h-full   round-xl text-white  '   >
+                                    <div className='absolute top-[15%] lg:top-[30%] lg:left-[20%] md:left-[20%] left-[10%] mr-[30px]'  >
                                         <p className='text-green-500  font-comforter  md:text-[40px]'>Welcome </p>
-                                        <p className='text-[20px] lg:text-[40px md:text-[40px]'><span>TO HOT MEAL</span>  <br /> Reserve Your Table Now</p>
+                                        <p className='text-[10px] lg:text-[40px md:text-[30px]'><span>TO HOT MEAL</span>  <br /> Reserve Your Table Now</p>
 
-                                        <button className='border-solid border-[1px] border-green-500 transition duration-700
+                                        <button className='border-solid border-[1px] border-green-500 transition duration-700 text-[15px]
                               text-white absolute  rounded-none mt-2
-                              hover:bg-green-600 px-8 py-4'>EXPLORE PRODUCTS</button>
+                              hover:bg-green-600 px-3 py-1  animate-pulse '>EXPLORE </button>
 
                                     </div>
                                 </div>
-                                <img className='h-[460px] md:max-h-[500px]  w-full  object-cover  ' src={img1} alt="" />
+                                <img className='h-[900px]  lg:h-[1000px]    w-full  object-cover  ' src={img1} alt="" />
                             </div>
 
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='z-1'>
+                <div className='z-1 ' >
                         <div className='relative'>
                             <div>
                                 {/* overlay */}
-                                <div className='absolute  w-full h-full bg-black/50 round-xl text-white  '  data-aos="fade-right"
-                                    data-aos-offset="300"
-                                    data-aos-easing="ease-in-sine" >
-                                    <div className='absolute top-[35%] lg:left-[20%] md:left-[20%] left-[10%] mr-[30px]' data-aos="fade-right">
+                                <div className='absolute  w-full h-full  round-xl text-white  '   >
+                                    <div className='absolute top-[15%] lg:top-[30%] lg:left-[20%] md:left-[20%] left-[10%] mr-[30px]'  >
                                         <p className='text-green-500  font-comforter  md:text-[40px]'>Welcome </p>
-                                        <p className='text-[20px] lg:text-[40px md:text-[40px]'><span>TO HOT MEAL</span>  <br /> Reserve Your Table Now</p>
+                                        <p className='text-[10px] lg:text-[40px md:text-[30px]'><span>TO HOT MEAL</span>  <br /> Reserve Your Table Now</p>
 
-                                        <button className='border-solid border-[1px] border-green-500 transition duration-700
+                                        <button className='border-solid border-[1px] border-green-500 transition duration-700 text-[15px]
                               text-white absolute  rounded-none mt-2
-                              hover:bg-green-600 px-8 py-4'>EXPLORE PRODUCTS</button>
+                              hover:bg-green-600 px-3 py-1  animate-pulse '>EXPLORE </button>
 
                                     </div>
                                 </div>
-                                <img className='h-[460px] md:max-h-[500px]  w-full  object-cover  ' src={img2} alt="" />
+                                <img className='h-[900px]  lg:h-[1000px]    w-full  object-cover  ' src={img1} alt="" />
                             </div>
 
                         </div>

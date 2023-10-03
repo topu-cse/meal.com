@@ -12,7 +12,7 @@ const Navber = () => {
       <div className="navbar-start">
         {/* mobile */}
 
-        <div className="drawer z-40 mt-4 mx-2 lg:hidden">
+        <div className="drawer z-40 mt-2 mx-2 lg:hidden">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
             {/* Page content here */}
@@ -60,7 +60,7 @@ const Navber = () => {
         <div className="flex">
 
           {/* Cart */}
-          <div className="drawer drawer-end z-[40]">
+          <div className="drawer drawer-end z-[40] ">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content mt-4 px-4">
               {/* Page content here */}
@@ -69,9 +69,9 @@ const Navber = () => {
                 <span className="badge badge-sm indicator-item -z-10">0</span>
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side ">
               <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-              <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+              <ul className="menu p-4 w-80 min-h-full bg-black/80 text-base-content text-white">
                 {/* Sidebar content here */}
                 <li><a>Sidebar Item 1</a></li>
                 <li><a>Sidebar Item 2</a></li>
@@ -80,13 +80,13 @@ const Navber = () => {
           </div>
 
           {/* Profile */}
-          <div className="dropdown dropdown-end">
+          <div className="dropdown dropdown-end  ">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="rounded-full">
                 <CgProfile size={30} />
               </div>
             </label>
-            <ul tabIndex={0} className=" menu-sm dropdown-content  z-[1] p-2 shadow bg-gray-200  w-52">
+            <ul tabIndex={0} className=" menu-sm dropdown-content  z-[500] p-2 shadow bg-black/80  w-52">
               <li>
                 <Link to={'profile'}>
                   Profile
