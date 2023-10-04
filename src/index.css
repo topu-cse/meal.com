@@ -26,3 +26,16 @@
     height: 100%;
     object-fit: cover;
   }
+
+
+  /* background img */
+  .back-img{
+    background-image: url('/src/assets/back/pexels-photo.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+     
+  }
